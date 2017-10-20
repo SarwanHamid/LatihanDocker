@@ -1,0 +1,70 @@
+hamid-X455LAB hamid # docker search elementary
+NAME                                       DESCRIPTION                                     STARS     OFFICIAL   AUTOMATED
+elementary/docker                          elementary OS containers primarily created...   1                    [OK]
+sabayon/builder-amd64-elementary                                                           0                    
+jfmercer/elementary-angular-base-box       This is the Docker base box for my element...   0                    [OK]
+jasl8r/gdesciencefair                      Groton Dunstable Elementary Science Fair        0                    [OK]
+aphnsfoten19831/elementarylinearalge1856   Elementary Linear Algebra With Application...   0                    
+ericmountain1a/websrv                      Elementary web server for testing               0                    
+kunalkushwaha/eos-dev                      elementary-os 'loki' app development image.     0                    
+rlandlroche9633/totalenglishelementa3401   Total English Elementary Teacher Book Down...   0                    
+kryambron1971y4/facefaceelementaryst9020   Face2Face Elementary Student'S Book Pdf | ...   0                    
+mnulvglsag186o7/newheadwayelementary4340   New Headway Elementary Student Book Downlo...   0                    
+bertlo1992r6/newheadwayelementary3482      New Headway Elementary Workbook With Key P...   0                    
+cionkprick197t6/newheadwayelementary7414   New Headway Elementary Student'S Book Thir...   0
+
+hamid-X455LAB hamid # docker search mongodb
+NAME                                   DESCRIPTION                                     STARS     OFFICIAL   AUTOMATED
+mongo                                  MongoDB document databases provide high av...   3729      [OK]       
+tutum/mongodb                          MongoDB Docker image – listens in port 270...   210                  [OK]
+mongo-express                          Web-based MongoDB admin interface, written...   188       [OK]       
+bitnami/mongodb                        Bitnami MongoDB Docker Image                    22                   [OK]
+frodenas/mongodb                       A Docker Image for MongoDB                      15                   [OK]
+percona/percona-server-mongodb         Percona Server for MongoDB docker images        13                   
+centos/mongodb-26-centos7              MongoDB NoSQL database server                   5                    
+tobilg/mongodb-marathon                A Docker image to start a dynamic MongoDB ...   4                    [OK]
+eses/mongodb_exporter                  mongodb exporter for prometheus                 4                    [OK]
+dynatrace/easytravel-mongodb           The Travel Database component (MongoDB) of...   4                    
+tozd/mongodb                           Base image for MongoDB server.                  3                    [OK]
+neowaylabs/mongodb-mms-agent           This Docker image with MongoDB Monitoring ...   2                    [OK]
+centos/mongodb-32-centos7              MongoDB NoSQL database server                   2                    
+tozd/meteor-mongodb                    MongoDB server image for Meteor applications.   2                    [OK]
+bigtruedata/php-mongodb                PHP image with MongoDB support                  1                    [OK]
+openshift/mongodb-24-centos7           DEPRECATED: A Centos7 based MongoDB v2.4 i...   1                    
+kardasz/mongodb                        MongoDB                                         0                    [OK]
+targetprocess/mongodb_exporter         MongoDB exporter for prometheus                 0                    [OK]
+webhippie/mongodb                      Docker images for mongodb                       0                    [OK]
+astronomerio/mongodb-source            Mongodb source.                                 0                    [OK]
+rheosystems/mongodb-backup-agent       MongoDB Backup Agent                            0                    [OK]
+gbenhaim/mongodb_exporter              a fork of lowstz/mongodb-exporter that sup...   0                    [OK]
+rheosystems/mongodb-monitoring-agent   MongoDB Monitoring Agent                        0                    [OK]
+coco/coco-mongodb-backup               coco-mongodb-backup                             0                    [OK]
+konstruktoid/mongodb                   MongoDB 3.X with WiredTiger                     0                    [OK]
+
+hamid-X455LAB hamid # docker search nginx
+NAME                                                   DESCRIPTION                                     STARS     OFFICIAL   AUTOMATED
+nginx                                                  Official build of Nginx.                        7071      [OK]       
+jwilder/nginx-proxy                                    Automated Nginx reverse proxy for docker c...   1142                 [OK]
+richarvey/nginx-php-fpm                                Container running Nginx + PHP-FPM capable ...   455                  [OK]
+jrcs/letsencrypt-nginx-proxy-companion                 LetsEncrypt container to use with nginx as...   233                  [OK]
+kong                                                   Open-source Microservice & API Management ...   120       [OK]       
+webdevops/php-nginx                                    Nginx with PHP-FPM                              91                   [OK]
+kitematic/hello-world-nginx                            A light-weight nginx container that demons...   86                   
+bitnami/nginx                                          Bitnami nginx Docker Image                      37                   [OK]
+linuxserver/nginx                                      An Nginx container, brought to you by Linu...   26                   
+1and1internet/ubuntu-16-nginx-php-phpmyadmin-mysql-5   ubuntu-16-nginx-php-phpmyadmin-mysql-5          16                   [OK]
+tobi312/rpi-nginx                                      NGINX on Raspberry Pi / armhf                   12                   [OK]
+wodby/drupal-nginx                                     Nginx for Drupal                                9                    [OK]
+webdevops/nginx                                        Nginx container                                 8                    [OK]
+nginxdemos/nginx-ingress                               NGINX Ingress Controller for Kubernetes         7                    
+blacklabelops/nginx                                    Dockerized Nginx Reverse Proxy Server.          7                    [OK]
+1science/nginx                                         Nginx Docker images that include Consul Te...   4                    [OK]
+centos/nginx-18-centos7                                Platform for running nginx 1.10 or buildin...   4                    
+nginxdemos/hello                                       NGINX webserver that serves a simple page ...   3                    [OK]
+behance/docker-nginx                                   Provides base OS, patches and stable nginx...   2                    [OK]
+toccoag/openshift-nginx                                Nginx reverse proxy for Nice running on sa...   1                    [OK]
+schmunk42/nginx                                        Legacy nginx image                              1                    
+pebbletech/nginx-proxy                                 nginx-proxy sets up a container running ng...   1                    [OK]
+travix/nginx                                           NGinx reverse proxy                             0                    [OK]
+mailu/nginx                                            Mailu nginx frontend                            0                    [OK]
+goodguide/nginx-application-proxy                      No-configuration Nginx reverse proxy for a...   0                    [OK]
