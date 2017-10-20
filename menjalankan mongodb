@@ -1,0 +1,42 @@
+hamid-X455LAB hamid # docker run -it ulboralabs/alpine-mongodb
+    2017-10-20T14:54:56.049+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=98d64fe24111
+    2017-10-20T14:54:56.049+0000 I CONTROL  [initandlisten] db version v3.2.3
+    2017-10-20T14:54:56.049+0000 I CONTROL  [initandlisten] git version: b326ba837cf6f49d65c2f85e1b70f6f31ece7937
+    2017-10-20T14:54:56.049+0000 I CONTROL  [initandlisten] allocator: system
+    2017-10-20T14:54:56.049+0000 I CONTROL  [initandlisten] modules: none
+    2017-10-20T14:54:56.049+0000 I CONTROL  [initandlisten] build environment:
+    2017-10-20T14:54:56.049+0000 I CONTROL  [initandlisten]     distarch: x86_64
+    2017-10-20T14:54:56.049+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+    2017-10-20T14:54:56.049+0000 I CONTROL  [initandlisten] options: {}
+    2017-10-20T14:54:56.056+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+    2017-10-20T14:54:56.620+0000 I CONTROL  [initandlisten] ** WARNING: You are running this process as the root user, which is not recommended.
+    2017-10-20T14:54:56.620+0000 I CONTROL  [initandlisten] 
+    2017-10-20T14:54:56.620+0000 I CONTROL  [initandlisten] 
+    2017-10-20T14:54:56.620+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+    2017-10-20T14:54:56.620+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+    2017-10-20T14:54:56.620+0000 I CONTROL  [initandlisten] 
+    2017-10-20T14:54:56.620+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/defrag is 'always'.
+    2017-10-20T14:54:56.620+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+    2017-10-20T14:54:56.621+0000 I CONTROL  [initandlisten] 
+    2017-10-20T14:54:56.621+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+    2017-10-20T14:54:56.621+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+    2017-10-20T14:54:56.763+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+    .....................
+    
+//buka console lain
+hamid@hamid-X455LAB ~ $ mongo
+    MongoDB shell version: 3.2.17
+    connecting to: test
+    Server has startup warnings: 
+    2017-10-20T19:16:05.069+0700 I CONTROL  [initandlisten] 
+    2017-10-20T19:16:05.069+0700 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+    2017-10-20T19:16:05.069+0700 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+    2017-10-20T19:16:05.069+0700 I CONTROL  [initandlisten] 
+    2017-10-20T19:16:05.069+0700 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/defrag is 'always'.
+    2017-10-20T19:16:05.069+0700 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+    2017-10-20T19:16:05.069+0700 I CONTROL  [initandlisten] 
+    > db
+    test
+    > show dbs
+    coba   0.000GB
+    local  0.000GB
