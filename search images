@@ -1,17 +1,30 @@
-hamid-X455LAB hamid # docker search elementary
-NAME                                       DESCRIPTION                                     STARS     OFFICIAL   AUTOMATED
-elementary/docker                          elementary OS containers primarily created...   1                    [OK]
-sabayon/builder-amd64-elementary                                                           0                    
-jfmercer/elementary-angular-base-box       This is the Docker base box for my element...   0                    [OK]
-jasl8r/gdesciencefair                      Groton Dunstable Elementary Science Fair        0                    [OK]
-aphnsfoten19831/elementarylinearalge1856   Elementary Linear Algebra With Application...   0                    
-ericmountain1a/websrv                      Elementary web server for testing               0                    
-kunalkushwaha/eos-dev                      elementary-os 'loki' app development image.     0                    
-rlandlroche9633/totalenglishelementa3401   Total English Elementary Teacher Book Down...   0                    
-kryambron1971y4/facefaceelementaryst9020   Face2Face Elementary Student'S Book Pdf | ...   0                    
-mnulvglsag186o7/newheadwayelementary4340   New Headway Elementary Student Book Downlo...   0                    
-bertlo1992r6/newheadwayelementary3482      New Headway Elementary Workbook With Key P...   0                    
-cionkprick197t6/newheadwayelementary7414   New Headway Elementary Student'S Book Thir...   0
+hamid-X455LAB hamid # docker search ubuntu
+NAME                                                   DESCRIPTION                                     STARS     OFFICIAL   AUTOMATED
+ubuntu                                                 Ubuntu is a Debian-based Linux operating s...   6694      [OK]       
+dorowu/ubuntu-desktop-lxde-vnc                         Ubuntu with openssh-server and NoVNC            137                  [OK]
+rastasheep/ubuntu-sshd                                 Dockerized SSH service, built on top of of...   109                  [OK]
+ansible/ubuntu14.04-ansible                            Ubuntu 14.04 LTS with ansible                   87                   [OK]
+ubuntu-upstart                                         Upstart is an event-based replacement for ...   80        [OK]       
+neurodebian                                            NeuroDebian provides neuroscience research...   40        [OK]       
+ubuntu-debootstrap                                     debootstrap --variant=minbase --components...   31        [OK]       
+nuagebec/ubuntu                                        Simple always updated Ubuntu docker images...   22                   [OK]
+tutum/ubuntu                                           Simple Ubuntu docker images with SSH access     19                   
+1and1internet/ubuntu-16-nginx-php-phpmyadmin-mysql-5   ubuntu-16-nginx-php-phpmyadmin-mysql-5          16                   [OK]
+ppc64le/ubuntu                                         Ubuntu is a Debian-based Linux operating s...   11                   
+aarch64/ubuntu                                         Ubuntu is a Debian-based Linux operating s...   9                    
+i386/ubuntu                                            Ubuntu is a Debian-based Linux operating s...   8                    
+darksheer/ubuntu                                       Base Ubuntu Image -- Updated hourly             3                    [OK]
+codenvy/ubuntu_jdk8                                    Ubuntu, JDK8, Maven 3, git, curl, nmap, mc...   3                    [OK]
+1and1internet/ubuntu-16-nginx-php-5.6-wordpress-4      ubuntu-16-nginx-php-5.6-wordpress-4             2                    [OK]
+1and1internet/ubuntu-16-apache-php-7.0                 ubuntu-16-apache-php-7.0                        1                    [OK]
+smartentry/ubuntu                                      ubuntu with smartentry                          0                    [OK]
+1and1internet/ubuntu-16-healthcheck                    ubuntu-16-healthcheck                           0                    [OK]
+pivotaldata/ubuntu-gpdb-dev                            Ubuntu images for GPDB development              0                    
+thatsamguy/ubuntu-build-image                          Docker webapp build images based on Ubuntu      0                    
+1and1internet/ubuntu-16-sshd                           ubuntu-16-sshd                                  0                    [OK]
+ossobv/ubuntu                                          Custom ubuntu image from scratch (based on...   0                    
+pivotaldata/ubuntu                                     A quick freshening-up of the base Ubuntu d...   0                    
+defensative/socat-ubuntu                                                                               0                    [OK]
 
 hamid-X455LAB hamid # docker search mongodb
 NAME                                   DESCRIPTION                                     STARS     OFFICIAL   AUTOMATED
