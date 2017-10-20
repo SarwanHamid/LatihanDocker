@@ -1,0 +1,10 @@
+hamid-X455LAB hamid # docker pull ulboralabs/alpine-mongodb 
+    Using default tag: latest
+    latest: Pulling from ulboralabs/alpine-mongodb
+    6b03e1135128: Pull complete 
+    a3ed95caeb02: Pull complete 
+    b1f9fdf40a48: Pull complete 
+    45331fac0229: Pull complete 
+    b8b16d60c45f: Pull complete 
+    Digest: sha256:7cbfdef8fc34d592f8a3f3202d13ff63c4601693fb4017b68b2a869bb680e69c
+    Status: Downloaded newer image for ulboralabs/alpine-mongodb:latest
