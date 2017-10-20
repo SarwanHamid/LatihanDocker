@@ -1,0 +1,8 @@
+hamid-X455LAB hamid # docker pull nginx
+    Using default tag: latest
+    latest: Pulling from library/nginx
+    bc95e04b23c0: Pull complete 
+    110767c6efff: Pull complete 
+    f081e0c4df75: Pull complete 
+    Digest: sha256:004ac1d5e791e705f12a17c80d7bb1e8f7f01aa7dca7deee6e65a03465392072
+    Status: Downloaded newer image for nginx:latest
